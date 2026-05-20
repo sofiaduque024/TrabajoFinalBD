@@ -1,3 +1,4 @@
+-- CREACIÓN DE TABLAS Y CONSTRAINTS:
 CREATE TABLE public.categorias (
   id_categoria integer NOT NULL DEFAULT nextval('categorias_id_categoria_seq'::regclass),
   tipo_categoria text NOT NULL,
@@ -47,3 +48,5 @@ CREATE TABLE public.tiendas (
   telefono_tienda character varying NOT NULL UNIQUE,
   CONSTRAINT tiendas_pkey PRIMARY KEY (id_tienda)
 );
+
+
