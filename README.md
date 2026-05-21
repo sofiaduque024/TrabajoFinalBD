@@ -82,7 +82,7 @@ bike-zone/
 
 ## Schema SQL
 
-Ver archivo [[`database/schema.sql`](database/schema.sql](https://github.com/sofiaduque024/TrabajoFinalBD/blob/7dc0d4e3824488406f5c4ee23426b89e667963d0/schema.sql))
+Ver archivo (https://github.com/sofiaduque024/TrabajoFinalBD/blob/main/schema.sql)
 ---
 
 ## Constraints aplicados
