@@ -17,7 +17,7 @@ bike-zone/
 ├── squema.sql
 ├── crud.py
 │
-├── images/                     ← Capturas del dashboard de Supabase
+├── images/                    
 │   ├── erd.png
 │   ├── categorias.png
 │   ├── clientes.png
