@@ -137,7 +137,7 @@ productos  ──< detalle_ordenes
 ## Stack tecnológico
 
 - **Base de datos:** PostgreSQL (Supabase)
-- **CRUD:** Python con `psycopg2`
+- **CRUD:** Python con 
 - **Plataforma:** Supabase
 
 ---
