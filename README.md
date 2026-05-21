@@ -1,10 +1,13 @@
-# 🚲 Bike Zone — Base de Datos
+# Bike Zone — Base de Datos
+Sistema de gestión de órdenes para una cadena de tiendas de bicicletas. Desarrollado con PostgreSQL en Supabase y operaciones CRUD en Python.
 
-Sistema de gestión de órdenes para una cadena de tiendas de bicicletas. Desarrollado con **PostgreSQL** en **Supabase** y operaciones CRUD en **Python**.
+Fuente de datos: Bike Store Sample Database — Kaggle
+Los datos fueron adaptados y estructurados en PostgreSQL con tablas, constraints, claves primarias y foráneas propias.
+
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 bike-zone/
@@ -27,7 +30,7 @@ bike-zone/
 
 ---
 
-## 🗺️ Diagrama Entidad-Relación (ERD)
+## Diagrama Entidad-Relación (ERD)
 
 > Generado desde el Schema Visualizer de Supabase
 
@@ -36,7 +39,7 @@ bike-zone/
 
 ---
 
-## 📋 Tablas
+## Tablas
 
 | Tabla | Descripción |
 |---|---|
@@ -49,7 +52,7 @@ bike-zone/
 
 ---
 
-## 🗃️ Datos de las tablas
+## Datos de las tablas
 
 ### categorias
 <img width="572" height="417" alt="Captura de pantalla 2026-05-20 212703" src="https://github.com/user-attachments/assets/61721a0a-57c8-41b0-9b4d-dc5424ba7fd6" />
@@ -77,12 +80,12 @@ bike-zone/
 
 ---
 
-## 🗃️ Schema SQL
+## Schema SQL
 
-Ver archivo [`database/schema.sql`](database/schema.sql)
+Ver archivo [[`database/schema.sql`](database/schema.sql](https://github.com/sofiaduque024/TrabajoFinalBD/blob/7dc0d4e3824488406f5c4ee23426b89e667963d0/schema.sql))
 ---
 
-## 🔒 Constraints aplicados
+## Constraints aplicados
 
 | Tabla | Columna | Tipo | Detalle |
 |---|---|---|---|
@@ -96,7 +99,7 @@ Ver archivo [`database/schema.sql`](database/schema.sql)
 
 ---
 
-## 🔗 Claves Foráneas
+## Claves Foráneas
 
 | Tabla | Columna FK | Tabla referenciada | Columna referenciada |
 |---|---|---|---|
@@ -108,7 +111,7 @@ Ver archivo [`database/schema.sql`](database/schema.sql)
 
 ---
 
-## 🔗 Relaciones
+## Relaciones
 
 ```
 categorias ──< productos
@@ -120,18 +123,18 @@ productos  ──< detalle_ordenes
 
 ---
 
-## 🐍 CRUD en Python
+## CRUD en Python
 
 
 ---
 
-## ⚙️ Procedimientos almacenados, Triggers e Índices
+## Procedimientos almacenados, Triggers e Índices
 
 
 
 ---
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 - **Base de datos:** PostgreSQL (Supabase)
 - **CRUD:** Python con `psycopg2`
