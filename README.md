@@ -1,12 +1,12 @@
-# 🚲 Bike Zone — Base de Datos
+# Bike Zone — Base de Datos
 
 Sistema de gestión de órdenes para una cadena de tiendas de bicicletas. Desarrollado con **PostgreSQL** en **Supabase** y operaciones CRUD en **Python**.
 
-> 📦 **Fuente de datos:** [Bike Store Sample Database — Kaggle](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)  
+>  **Fuente de datos:** [Bike Store Sample Database — Kaggle](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)  
 > Los datos fueron adaptados y estructurados en PostgreSQL con tablas, constraints, claves primarias y foráneas propias.
 
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 bike-zone/
