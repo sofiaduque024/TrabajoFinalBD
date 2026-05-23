@@ -3,7 +3,6 @@ import psycopg2
 CADENA_CONEXION = "postgresql://postgres.vxmhufptarfyswpnvvra:[EgK7?B!nQGeg6mm]@aws-1-us-west-2.pooler.supabase.com:5432/postgres"
 
 def conectar():
-    """Abre y retorna la conexión a Supabase."""
     conexion = psycopg2.connect(
         host="aws-1-us-west-2.pooler.supabase.com",
         port="5432",
@@ -245,24 +244,20 @@ def eliminar_producto(id_producto):
 
 #  MENÚ PRINCIPAL
 def mostrar_menu():
-    """Muestra el menú principal y retorna la opción elegida."""
-    print("\n" + "=" * 50)
-    print("       SISTEMA CRUD - BIKE ZONE")
-    print("=" * 50)
-    print("  --- CLIENTES ---")
-    print("  1. Ver todos los clientes")
-    print("  2. Buscar cliente por ID")
-    print("  3. Crear nuevo cliente")
-    print("  4. Actualizar cliente")
-    print("  5. Eliminar cliente")
-    print("  --- PRODUCTOS ---")
-    print("  6. Ver todos los productos")
-    print("  7. Buscar producto por ID")
-    print("  8. Crear nuevo producto")
-    print("  9. Actualizar producto")
-    print("  10. Eliminar producto")
-    print("  0. Salir")
-    print("=" * 50)
+    print("SISTEMA CRUD - BIKE ZONE")
+    print("CLIENTES")
+    print("1. Ver todos los clientes")
+    print("2. Buscar cliente por ID")
+    print("3. Crear nuevo cliente")
+    print("4. Actualizar cliente")
+    print("5. Eliminar cliente")
+    print("PRODUCTOS")
+    print("6. Ver todos los productos")
+    print("7. Buscar producto por ID")
+    print("8. Crear nuevo producto")
+    print("9. Actualizar producto")
+    print("10. Eliminar producto")
+    print("0. Salir")
     opcion_elegida = input("Elige una opción: ")
     return opcion_elegida
 
@@ -342,7 +337,7 @@ def main():
             except ValueError:
                 print("El ID debe ser un número entero.")
         elif opcion == "0":
-            print("\n👋 ¡Hasta luego!")
+            print("\n¡Hasta luego!")
             continuar = False
         else:
             print("Opción no válida. Intenta de nuevo.")
