@@ -1,6 +1,6 @@
 import psycopg2
 
-CADENA_CONEXION = "postgresql://postgres.vxmhufptarfyswpnvvra:[EgK7?B!nQGeg6mm]@aws-1-us-west-2.pooler.supabase.com:5432/postgres"
+CADENA_CONEXION = "postgresql://postgres.vxmhufptarfyswpnvvra:[CONTRASEÑA]@aws-1-us-west-2.pooler.supabase.com:5432/postgres"
 
 def conectar():
     conexion = psycopg2.connect(
@@ -8,7 +8,7 @@ def conectar():
         port="5432",
         database="postgres",
         user="postgres.vxmhufptarfyswpnvvra",
-        password="EgK7?B!nQGeg6mm"  
+        password="CONTRASEÑA"  
     )
     return conexion
 
